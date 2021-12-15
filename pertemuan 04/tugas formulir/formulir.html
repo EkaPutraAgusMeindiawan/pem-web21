@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            FORMULIR PPDB JALUR ZONASI 2020
+        </title>
+        <body>
+            <form action="proses.php" method="post" name="fcontoh"></form>
+            <h2 align="center">FORMULIR PPDB JALUR ZONASI 2020</h2><br>
+            <table bgcolor="#D3D3D3"  border="1" align="center" cellspacing="0" cellspading="5" width="50%">
+                <tr bgcolor="yellow">
+                    <th h1 align="center" width="50">
+                        Nomor
+                    </th>
+                    <th h1 align="center">
+                        Info Pendaftaran
+                    </th>
+                </tr>
+                <tr>
+                    <td align="center" bgcolor="yellow">1</td>
+                    <td>
+                       <label for="NISN">NISN</label>
+                       <input type="number" id="NISN" name="NISN">
+                       <input type="submit" value="Submit">
+                     </td>
+                </tr>
+                <tr>
+                    <td align="center" bgcolor="yellow">2</td>
+                    <td>
+                        <label for="Asal Sekolah">Asal Sekolah</label>
+                        <select type="text" id="Asal Sekolah" name="Asal Sekolah">
+                            <option velue"">::PIlihan Sekolah::</option>
+                            <Option velue"1">SMP N 1 Rembang</Option>
+                            <Option velue"2">SMP N 2 Rembang</Option>
+                            <Option velue"3">SMP N 3 Rembang</Option>
+                            <Option velue"4">SMP N 4 Rembang</Option>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" bgcolor="yellow">3</td>
+                    <td>
+                        <label for="Tlulus">Tahun Lulus (2018,2019,2020,and 2021):</label>
+                        <input type="number" id="Tlulus" name="Tlulus" min="2018" max="2021">
+                        <input type="submit" value="Submit">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" bgcolor="yellow">Data Calon  Peserta :</td>   
+                </tr>             
+                <tr>
+                    <td align="center" bgcolor="yellow">4</td>
+                    <td>                    
+                        <label for="NIK">NIK</label>
+                        <input type="number" id="NIK" name="NIK">
+                        <input type="submit" value="Submit">
+                    </td>
+                </tr>                
+                <tr>
+                    <td align="center" bgcolor="yellow">5</td>
+                    <td>
+                        <label for="Tempat">Tempat</label>
+                        <input type="Tempat" id="Tempat" name="Tempat">
+                        <label for="tgl">/Tanggal Lahir:</label>
+                        <input type="date" id="tgl" name="tgl">
+                        <input type="submit" value="Submit">
+                    </td>
+                </tr>                
+                <tr>
+                    <td align="center" bgcolor="yellow">6</td>
+                    <td colspan="2">
+                        <label for="myfile">Foto Copy Akte Kelahiran Yang Telah Dilegalisir (Di lampirkan):</label>
+                        <input type="file" id="fcakte" name="fcakte">
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" bgcolor="yellow">7</td>
+                    <td>
+                        <label for="Jenis Kelamin">Jenis Kelamin</label>
+                        <input type="checkbox" id="lakilaki" name="laki" value="laki">
+                        <label for="lakilaki"> Laki-laki </label>
+                        <input type="checkbox" id="perempuan" name="perempuan" value="prempuan">
+                        <label for="perempuan"> Perempuan </label>
+                </tr>     
+                <tr>
+                    <td align="center" bgcolor="yellow">8</td>
+                    <td>Alamat :</td>
+                </tr>              
+                <tr>
+                    <td align="center" bgcolor="yellow">9</td>
+                    <td align="center">
+                        <label for="Desa">Desa/Kel</label>
+                        <input type="text" id="Desa" name="Desa">
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" bgcolor="yellow">10</td>
+                    <td align="center">                       
+                        <label for="Kecamatan">Kecamatan</label>
+                        <select type="text" id="Kecamatan" name="Kecamatan">
+                            <option velue"">::PIlihan Kecamatan::</option>
+                            <Option velue"A">Kec. Kaliori</Option>
+                            <Option velue"B">Kec. Rembang</Option>
+                            <Option velue"C">Kec. Sedan</Option>
+                            <Option velue"D">Kec. Bulu</Option></td>
+                </tr>
+                <tr>
+                    <td align="center" bgcolor="yellow">11</td>
+                    <td align="center"><label for="Kabupaten">Kecamatan</label>
+                        <select type="text" id="Kabupaten" name="Kabupaten">
+                            <option velue"">::PIlihan Kabupaten::</option>
+                            <Option velue"A">Rembang</Option>
+                            <Option velue"B">Pati</Option>
+                            <Option velue"C">Kudus</Option>
+                            <Option velue"D">Blora</Option></td>
+                </tr>
+                <tr>
+                    <td align="center" bgcolor="yellow">12</td>
+                    <td align="center"><label for="Provinsi">Kecamatan</label>
+                        <select type="text" id="Provinsi" name="Provinsi">
+                            <option velue"">::PIlihan Provinsi::</option>
+                            <Option velue"A">Jawa Tengah</Option>
+                            <Option velue"B">Jawa Timur</Option>
+                            <Option velue"C">Jawa Barat</Option>
+                            <Option velue"D">Sumatra Utara</Option></td>
+                </tr>
+                <tr>
+                    <td align="center" bgcolor="yellow">13</td>
+                    <td>
+                        <label for="email">Alamat Email:</label>
+                        <input type="email" id="email" name="email">
+                        <input type="submit" value="Submit">
+                    </td>
+ 
+                </tr>
+                <tr>
+                    <td colspan="2" bgcolor="yellow">
+                        <label for="myfile">Data Orang Tua (lampirkan KK):</label>
+                        <input type="file" id="KK" name="KK">
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" bgcolor="yellow">14</td>
+                    <td>
+                    <label for="No KK">Nomor Kartu Keluarga</label>
+                    <input type="number" id="No KK" name="No KK">
+                    <input type="submit" value="Submit">
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" bgcolor="yellow">15</td>
+                    <td>                    
+                        <label for="Nama Ayah">Nama Ayah Kandung</label>
+                        <input type="text" id="Nama Ayah" name="Nama Ayah">
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" bgcolor="yellow">16</td>
+                    <td><label for="Agama Ayah">Agama</label>
+                        <select type="text" id="Agama Ayah" name="Agama Ayah">
+                            <option velue"">::Agama::</option>
+                            <Option velue"a">Islam</Option>
+                            <Option velue"b">Kristen</Option>
+                            <Option velue"c">Hindu</Option>
+                            <Option velue"d">Budha</Option>
+                            <Option velue"e">Konghucu</Option>
+                        </td>
+                </tr>
+                <tr>
+                    <td align="center" bgcolor="yellow">17</td>
+                    <td>                       
+                        <label for="Pekerjaan Ayah">Pekerjaan</label>
+                        <input type="text" id="Pekerjaan Ayah" name="Pekerjaan Ayah"></td>
+                </tr>
+                <tr>
+                    <td align="center" bgcolor="yellow">18</td>
+                    <td>                    
+                        <label for="Nama Ibu">Nama Ibu Kandung</label>
+                        <input type="text" id="Nama Ibu" name="NamaIbu ">
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" bgcolor="yellow">19</td>
+                    <td><label for="Agama Ibu">Agama</label>
+                        <select type="text" id="Agama Ibu" name="Agama Ibu">
+                            <option velue"">::Agama::</option>
+                            <Option velue"a">Islam</Option>
+                            <Option velue"b">Kristen</Option>
+                            <Option velue"c">Hindu</Option>
+                            <Option velue"d">Budha</Option>
+                            <Option velue"e">Konghucu</Option>
+                        </td>
+                </tr>
+                <tr>
+                    <td align="center" bgcolor="yellow">20</td>
+                    <td>                       
+                        <label for="Pekerjaan Ibu">Pekerjaan</label>
+                        <input type="text" id="Pekerjaan Ibu" name="Pekerjaan Ibu"></td>
+                </tr>
+                <tr>
+                    <td align="center" bgcolor="yellow">21</td>
+                    <td>Alamat Orang Tua  :</td>
+                </tr>               
+                <td align="center" bgcolor="yellow">22</td>
+                    <td align="center">
+                        <label for="Desa Orangtua">Desa/Kel</label>
+                        <input type="text" id="Desa Orangtua" name="Desa Orangtua">
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" bgcolor="yellow">23</td>
+                    <td align="center">                       
+                        <label for="Kecamatan Orangtua">Kecamatan</label>
+                        <select type="text" id="Kecamatan Orangtua" name="Kecamatan Orangtua">
+                            <option velue"">::PIlihan Kecamatan::</option>
+                            <Option velue"A">Kec. Kaliori</Option>
+                            <Option velue"B">Kec. Rembang</Option>
+                            <Option velue"C">Kec. Sedan</Option>
+                            <Option velue"D">Kec. Bulu</Option></td>
+                </tr>
+                <tr>
+                    <td align="center" bgcolor="yellow">24</td>
+                    <td align="center"><label for="Kabupaten Orangtua">Kecamatan</label>
+                        <select type="text" id="Kabupaten Orangtua" name="Kabupaten Orangtua">
+                            <option velue"">::PIlihan Kabupaten::</option>
+                            <Option velue"A">Rembang</Option>
+                            <Option velue"B">Pati</Option>
+                            <Option velue"C">Kudus</Option>
+                            <Option velue"D">Blora</Option></td>
+                </tr>
+                <tr>
+                    <td align="center" bgcolor="yellow">25</td>
+                    <td align="center"><label for="Provinsi Orangtua">Kecamatan</label>
+                        <select type="text" id="Provinsi Orangtua" name="Provinsi Orangtua">
+                            <option velue"">::PIlihan Provinsi::</option>
+                            <Option velue"A">Jawa Tengah</Option>
+                            <Option velue"B">Jawa Timur</Option>
+                            <Option velue"C">Jawa Barat</Option>
+                            <Option velue"D">Sumatra Utara</Option></td>
+                </tr>
+                <tr>
+                    <td align="right" colspan="2">
+                        <input type="submit" name="submit" velue="kirim/simpan">
+                    </td>
+                </tr>
+            </table>
+        
+        </body>
+    </head>
+</html>
