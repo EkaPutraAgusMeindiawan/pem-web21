@@ -15,7 +15,7 @@
             function loadContent() {
             document.getElementById("btn-load").innerHTML = "loading...";
             document.getElementById("btn-load").setAttribute("disabled","true");
-            axios.get('https://jsonplaceholder.typicode.com/posts/')
+            axios.get('http://localhost/pemrograman web/PERTEMUAN 13/postn.json')
             .then(function (response) {
             var template = response.data.map(post => {
             return `

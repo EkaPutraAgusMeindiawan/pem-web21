@@ -12,7 +12,7 @@
         <div id="hasil"></div>
         <script>
             function loadContent(){
-            var url = "https://jsonplaceholder.typicode.com/posts/";
+            var url = "http://localhost/pemrograman web/PERTEMUAN 13/postn.json";
             fetch(url).then(response => response.json())
             .then(function(data){
             var template = data.map(post => {
